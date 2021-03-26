@@ -22,6 +22,8 @@ const About = () => {
     }
   }, []);
 
+  console.log(img);
+
   return (
     <section id="about">
       <Container>
