@@ -41,7 +41,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Hello there, my name is Chris Brown and I am a Front-end Developer out of Clarkville Tn. Some of the tools I use are React-JS, Next-JS, Gatsby-JS, JavaScript, Html, Css, Sass, as well as some Css frame works like Bootstrap and Material-Ui'}
+                    'Hello there, my name is Chris Brown and I am a Front-end Developer out of Clarkville Tn. Some of the tools I use are JavaScript, React-JS, Next-JS, Gatsby-JS, Html, Css, Sass, as well as some Css frame works like Bootstrap and Material-Ui'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
