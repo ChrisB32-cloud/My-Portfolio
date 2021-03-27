@@ -2,26 +2,26 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Chris Brown Web Dev', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Front-end Web-developer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, my name is',
+  name: 'Chris Brown',
+  subtitle: `I'm a Front-end Developer.`,
+  cta: 'MORE',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'myPic.png',
   // img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Hello there, my name is Chris Brown and I am a Front-end Developer out of Clarkville Tn. Some of the tools I use are JavaScript, React-JS, Next-JS, Gatsby-JS, Firebase, Filemaker, Html, Css, Sass, as well as some Css frame works like Bootstrap and Material-Ui',
+  paragraphTwo: 'I have worked and helped develop multiple projects ranging from html websites to web-apps using varise different tools to come up with the best solutions for clients. A solution in partical I have developed for clients is a CMS Admin panel where they can update status, events, and other sections of their website that regularly changes.',
+  paragraphThree: 'I love learning new technologies but a deeper passion is helping others learn.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 

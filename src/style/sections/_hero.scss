@@ -4,9 +4,16 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: rgb(95, 95, 95);
+  // background: $white-color;
+  background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-blend-mode: darken;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: rgb(212, 212, 212);
+  // color: $dark-blue-text;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -14,6 +21,7 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  // opacity: 0.5;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
