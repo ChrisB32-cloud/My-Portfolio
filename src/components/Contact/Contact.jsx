@@ -17,16 +17,16 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <Form >
-              <Form.Group controlId="formBasicEmail" className="text-left">
+            <Form className="d-flex flex-column justify-content-center align-items-center">
+              <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
                 <Form.Label >Name</Form.Label>
                 <Form.Control type="text" placeholder="Enter Name" />
               </Form.Group>
-              <Form.Group controlId="formBasicEmail" className="text-left">
+              <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
-              <Form.Group controlId="formBasicPassword" className="text-left">
+              <Form.Group controlId="formBasicPassword" className="text-left w-75 p-3">
                 <Form.Label>Message</Form.Label>
                 <Form.Control type="text" placeholder="Password" />
               </Form.Group>
