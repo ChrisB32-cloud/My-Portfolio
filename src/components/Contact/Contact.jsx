@@ -17,32 +17,33 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <Form className="d-flex flex-column justify-content-center align-items-center">
-              <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
-                <Form.Label >Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter Name" />
-              </Form.Group>
-              <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-              </Form.Group>
-              <Form.Group controlId="formBasicPassword" className="text-left w-75 p-3">
-                <Form.Label>Message</Form.Label>
-                <Form.Control type="text" placeholder="Password" />
-              </Form.Group>
-              {/* <Button variant="primary" type="submit">
+            <div className='form-wrapper'>
+              <Form className="d-flex flex-column justify-content-center align-items-center">
+                <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
+                  <Form.Label className='ml-3'>Name</Form.Label>
+                  <Form.Control type="text" placeholder="Enter Name" />
+                </Form.Group>
+                <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
+                  <Form.Label className='ml-3'>Email address</Form.Label>
+                  <Form.Control type="email" placeholder="Enter email" />
+                </Form.Group>
+                <Form.Group controlId="formBasicPassword" className="text-left w-75 p-3">
+                  <Form.Label className='ml-3'>Message</Form.Label>
+                  <Form.Control type="text" placeholder="Password" />
+                </Form.Group>
+                {/* <Button variant="primary" type="submit">
                 Submit
               </Button> */}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cta-btn cta-btn--resume"
-                href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-              >
-                {btn || "Let's Talk"}
-              </a>
-            </Form>
-
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cta-btn cta-btn--resume"
+                  href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+                >
+                  {btn || "Let's Talk"}
+                </a>
+              </Form>
+            </div>
           </div>
         </Fade>
       </Container>
