@@ -15,21 +15,21 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
+              {cta || 'Would you like to work with me?'}
             </p>
             <div className='form-wrapper'>
               <Form className="d-flex flex-column justify-content-center align-items-center">
                 <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
                   <Form.Label className='ml-3'>Name</Form.Label>
-                  <Form.Control type="text" placeholder="Enter Name" />
+                  <Form.Control type="text" placeholder="Enter Name" required />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
                   <Form.Label className='ml-3'>Email address</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Control type="email" placeholder="Enter email" required />
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword" className="text-left w-75 p-3">
                   <Form.Label className='ml-3'>Message</Form.Label>
-                  <Form.Control type="text" placeholder="Password" />
+                  <Form.Control as="textarea" rows={4} type="text" placeholder="Message" required />
                 </Form.Group>
                 {/* <Button variant="primary" type="submit">
                 Submit
