@@ -34,15 +34,15 @@ const Contact = () => {
               <Form onSubmit={sendEmail} className="d-flex flex-column justify-content-center align-items-center">
                 <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
                   <Form.Label className='ml-3'>Name</Form.Label>
-                  <Form.Control name='name' type="text" placeholder="Enter Name" required />
+                  <Form.Control className='formInputCont' name='name' type="text" placeholder="Enter Name" required />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail" className="text-left w-75 p-3">
                   <Form.Label className='ml-3'>Email address</Form.Label>
-                  <Form.Control name='email' type="email" placeholder="Enter email" required />
+                  <Form.Control className='formInputCont' name='email' type="email" placeholder="Enter email" required />
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword" className="text-left w-75 p-3">
                   <Form.Label className='ml-3'>Message</Form.Label>
-                  <Form.Control name='message' as="textarea" rows={4} type="text" placeholder="Message" required />
+                  <Form.Control className='formInputCont' name='message' as="textarea" rows={4} type="text" placeholder="Message" required />
                 </Form.Group>
                 {/* <Button variant="primary" type="submit">
                   Submit
