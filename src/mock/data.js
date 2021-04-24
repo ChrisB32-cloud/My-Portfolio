@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'myPic.png',
   // img: 'profile.jpg',
   paragraphOne: 'Hello there, my name is Chris Brown and I am a Front-end Developer out of Clarkville Tn. Some of the tools I use are JavaScript, React-JS, Next-JS, Gatsby-JS, Firebase, Filemaker, Html, Css, Sass, as well as some Css frame works like Bootstrap and Material-Ui',
-  paragraphTwo: 'I have worked and helped develop multiple projects ranging from html websites to web-apps using varise different tools to come up with the best solutions for clients. A solution in partical I have developed for clients is a CMS Admin panel where they can update status, events, and other sections of their website that regularly changes.',
+  paragraphTwo: 'I have worked and helped develop multiple projects ranging from html websites to web-apps using varise different tools to come up with the best solutions for clients. A solution in partical I have developed for clients, is a CMS Admin panel where they can update status, events, and other sections of their website that regularly changes.',
   paragraphThree: 'I love learning new technologies but a deeper passion is helping others learn.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
