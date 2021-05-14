@@ -45,7 +45,7 @@ export const projectsData = [
     title: 'The Burger Store',
     info: 'The Burger Store is a locally own and operated, non francise restuarant that prides its self is locally sourced ingredents. I helped them create a solution where they could have a website and change/update sections that change frequently with a CMS/admin panel where they recieve messages from companies interested learning more about their business. Sections that include new offerings, events and a section for displaying menu items. Also I included google maps API for their three locations.',
     info2: 'The tools I used for this project are Next-JS, React-JS, JavaScript, Css, Sass, bootstrap and Firbase. ',
-    url: 'https://github.com/ChrisB32-cloud/The-Burger-Strore',
+    url: 'https://the-burger-strore-ia14ayw1g-chrisb32-cloud.vercel.app/',
     repo: 'https://github.com/ChrisB32-cloud/The-Burger-Strore', // if no repo, the button will not show up
   },
   {
