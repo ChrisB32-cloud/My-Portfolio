@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'myPic.png',
   // img: 'profile.jpg',
-  paragraphOne: 'Hello there, my name is Chris Brown and I am a Front-end Developer out of Clarkville Tn. Some of the tools I use are JavaScript, React-JS, Next-JS, Gatsby-JS, Firebase, Filemaker, Html, Css, Sass, as well as some Css frame works like Bootstrap and Material-Ui',
+  paragraphOne: 'Hello there, my name is Chris Brown and I am a Front-end Developer out of Clarkville Tn. Some of the tools I use are JavaScript, React-JS, Next-JS, Gatsby-JS, Firebase, Strapi, Filemaker, Html, Css, Sass, as well as some Css frame works like Bootstrap and Material-Ui',
   paragraphTwo: 'I have worked and helped develop multiple projects ranging from html websites to web-apps using varise different tools to come up with the best solutions for clients. A solution in partical I have developed for clients, is a CMS Admin panel where they can update status, events, and other sections of their website that regularly changes.',
   paragraphThree: 'I love learning new technologies but a deeper passion is helping others learn.',
   resume: 'https://github.com/ChrisB32-cloud/resume/raw/main/MyResume.pdf', // if no resume, the button will not show up
@@ -47,17 +47,43 @@ export const projectsData = [
     info2: 'The tools I used for this project are Next-JS, React-JS, JavaScript, Css, Sass, bootstrap and Firbase. ',
     url: 'https://theburgerstorenashville.com/',
     repo: 'https://the-burger-strore-ia14ayw1g-chrisb32-cloud.vercel.app/', // if no repo, the button will not show up
+  }
+];
+
+export const expData = [
+  {
+    id: nanoid(),
+    img: 'simplePort.jpg',
+    codeSource: true,
+    liveCode: true,
+    title: 'Local Events',
+    info: 'Now that the pandemic is finally getting under control, I wanted to build an app that would allow people to reconnect through local events. For myself and my partner I know it was tough this past year not having that social environment as we loved attending events and trying new restauarants. This app is amming to allow users to create and display upcoming events in their area. Local Events App has full CRUD functionality with jwt for authentication and authorization',
+    info2: 'The tools I used for this project are Next.JS, React.JS ',
+    url: 'https://localevents.vercel.app/',
+    repo: 'https://github.com/ChrisB32-cloud/Local-Events-App', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'covid.png',
     codeSource: true,
+    liveCode: false,
     title: 'Covid Tracker',
     info: 'Covid Tracker was a project created at the height of the Covid-19 epidemic. Knowing people who were personally afflicted with this virus I decided to build a small web-app that people could visit so they could see daily changes in their state as well as the national trends represented graphically that start from the first reported case in the United State in January 2020 to present day.',
-    info2: 'The tools I used for this project are JavaScript, React-JS, Css, and Charts-JS',
+    info2: 'The tools I used for this project are JavaScript, React-JS, JSX, Css, and Charts-JS',
     url: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker',
     repo: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker', // if no repo, the button will not show up
   },
+  // {
+  //   id: nanoid(),
+  //   img: 'covid.png',
+  //   codeSource: true,
+  //   liveCode: true,
+  //   title: 'Covid Tracker',
+  //   info: 'Covid Tracker was a project created at the height of the Covid-19 epidemic. Knowing people who were personally afflicted with this virus I decided to build a small web-app that people could visit so they could see daily changes in their state as well as the national trends represented graphically that start from the first reported case in the United State in January 2020 to present day.',
+  //   info2: 'The tools I used for this project are JavaScript, React-JS, Css, and Charts-JS',
+  //   url: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker',
+  //   repo: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
