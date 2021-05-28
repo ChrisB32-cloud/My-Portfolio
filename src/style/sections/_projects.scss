@@ -4,6 +4,8 @@
   margin-top: -15rem;
   padding-top: 15rem;
 
+  
+
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
@@ -11,6 +13,18 @@
 
   .project-wrapper {
     margin-bottom: 15rem;
+    
+
+    .raisedTile {
+      // margin: 20px;
+      // padding-top: 10px;
+      // padding-left: 10px;
+      // padding-right: 10px;
+      
+      // box-shadow: 20px 20px 50px #00d2c6, 
+      //       -30px -30px 60px #00ffff;
+      // border-radius: 20px;
+    }
 
     @include respond(phone) {
       margin-bottom: 0rem;
