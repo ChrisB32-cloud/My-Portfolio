@@ -58,7 +58,7 @@ export const expData = [
     liveCode: true,
     title: 'Local Events',
     info: 'Now that the pandemic is finally getting under control, I wanted to build an app that would allow people to reconnect through local events. For myself and my partner I know it was tough this past year not having that social environment as we loved attending events and trying new restauarants. This app is amming to allow users to create and display upcoming events in their area. Local Events App has full CRUD functionality with jwt for authentication and authorization',
-    info2: 'The tools I used for this project are Next.JS, React.JS ',
+    info2: 'The tools I used for this project are Next.JS, React.JS, JavaScript, JSX, Css, bootstrap, Strapi, google maps Api',
     url: 'https://localevents.vercel.app/',
     repo: 'https://github.com/ChrisB32-cloud/Local-Events-App', // if no repo, the button will not show up
   },
