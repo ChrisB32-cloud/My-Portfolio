@@ -28,16 +28,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  // {
-  //   id: nanoid(),
-  //   img: 'screenPrint.png',
-  //   codeSource: false,
-  //   title: 'Ink Pressive',
-  //   info: 'Ink Pressive is a first responder owned and operated Screen Printing company specilizing in sublamtion process. I helped them create a solution where they could have a website and change/update sections that change frequently with a CMS/admin panel where they recieve messages from companies interested in their services that is simple and easy to use. Another option for contact is via service form for returning clients. Sections that include new offerings, events and a section for displaying instagram post.',
-  //   info2: 'The tools I used for this project are React-JS (Currently refactoring for NEXT-JS), JavaScript, Css, Material-UI and Firbase.  ',
-  //   url: 'https://github.com/ChrisB32-cloud/Ink-Pressive-Dev',
-  //   repo: 'https://github.com/ChrisB32-cloud/Ink-Pressive-Dev', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'screenPrint.png',
+    codeSource: false,
+    title: 'Ink Pressive',
+    info: 'Ink Pressive is a first responder owned and operated Screen Printing company specilizing in sublamtion process. I helped them create a solution where they could have a website and change/update sections that change frequently with a CMS/admin panel where they recieve messages from companies interested in their services that is simple and easy to use. Another option for contact is via service form for returning clients. Sections that include new offerings, events and a section for displaying instagram post.',
+    info2: 'The tools I used for this project are React-JS (Currently refactoring for NEXT-JS), JavaScript, Css, Material-UI and Firbase.  ',
+    url: 'https://60b6497e8408a500081ecc91--angry-sammet-9ba266.netlify.app',
+    repo: 'https://github.com/ChrisB32-cloud/Ink-Pressive-Dev', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'burger.png',
