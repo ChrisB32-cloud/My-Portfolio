@@ -73,17 +73,17 @@ export const expData = [
     url: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker',
     repo: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'covid.png',
-  //   codeSource: true,
-  //   liveCode: true,
-  //   title: 'Covid Tracker',
-  //   info: 'Covid Tracker was a project created at the height of the Covid-19 epidemic. Knowing people who were personally afflicted with this virus I decided to build a small web-app that people could visit so they could see daily changes in their state as well as the national trends represented graphically that start from the first reported case in the United State in January 2020 to present day.',
-  //   info2: 'The tools I used for this project are JavaScript, React-JS, Css, and Charts-JS',
-  //   url: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker',
-  //   repo: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'weather.jpg',
+    codeSource: true,
+    liveCode: true,
+    title: 'Weather app',
+    info: 'The weather app is built with open weather api. When using the app, user has to enter in their city and country and the api returns the weather conditions for that area. The conditions provided are Temperuture in farhinhit, humidity, feels like temp, Pressure, wind speed and wind direction. This app is built with vanilla JS. (Currently refactoring to use area code instead on city.)',
+    info2: 'The tools I used for this project are JavaScript, HTML, CSS',
+    url: 'https://chrisb32-cloud.github.io/Weather-App/',
+    repo: 'https://github.com/ChrisB32-cloud/Weather-App', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
