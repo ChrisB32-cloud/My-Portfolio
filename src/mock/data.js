@@ -79,7 +79,7 @@ export const expData = [
     codeSource: true,
     liveCode: true,
     title: 'Weather app',
-    info: 'The weather app is built with open weather api. When using the app, user has to enter in their city and country and the api returns the weather conditions for that area. The conditions provided are Temperuture in farhinhit, humidity, feels like temp, Pressure, wind speed and wind direction. This app is built with vanilla JS. (Currently refactoring to use area code instead on city.)',
+    info: 'The weather app is built with open weather api. When using the app, user has to enter in their city and country and the api returns the weather conditions for that area. The conditions provided are temperature in fahrenheit, humidity, feels like temperature, Pressure, wind speed and wind direction. This app is built with vanilla JS. (Currently refactoring to use area code instead on city.)',
     info2: 'The tools I used for this project are JavaScript, HTML, CSS',
     url: 'https://chrisb32-cloud.github.io/Weather-App/',
     repo: 'https://github.com/ChrisB32-cloud/Weather-App', // if no repo, the button will not show up
