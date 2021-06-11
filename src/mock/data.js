@@ -69,7 +69,7 @@ export const expData = [
     codeSource: true,
     liveCode: false,
     title: 'Covid Tracker',
-    info: 'Covid Tracker was a project created at the height of the Covid-19 epidemic. Knowing people who were personally afflicted with this virus I decided to build a small web-app that people could visit so they could see daily changes in their state as well as the national trends represented graphically that start from the first reported case in the United State in January 2020 to present day.',
+    info: 'Covid Tracker was a project created at the height of the Covid-19 epidemic. Knowing people who were personally afflicted with this virus I decided to build a small web-app that people could visit so they could see daily changes in their state as well as the national trends represented graphically that start from the first reported case in the United State in January 2020 to present day. The source of the data is "The Covid Tracking Project".',
     info2: 'The tools I used for this project are JavaScript, React-JS, JSX, Css, and Charts-JS',
     url: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker',
     repo: 'https://github.com/ChrisB32-cloud/React-Covid-Tracker', // if no repo, the button will not show up
