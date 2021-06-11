@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'myPic.png',
   // img: 'profile.jpg',
   paragraphOne: 'Hello there, my name is Chris Brown and I am a Front-end Developer out of Clarkville Tn. Some of the tools I use are JavaScript, React-JS, Next-JS, Gatsby-JS, Firebase, Strapi, Filemaker, Html, Css, Sass, as well as some Css frame works like Bootstrap and Material-Ui',
-  paragraphTwo: 'I have worked and helped develop multiple projects ranging from html websites to web-apps using varise different tools to come up with the best solutions for clients. Something in partical I have developed for clients, is a CMS Admin panel where they can update status, events, and other sections of their website that regularly changes.',
+  paragraphTwo: 'I have worked and helped develop multiple projects ranging from html websites to web-apps using varise different tools to come up with the best solution for clients. Something in partical I have built for clients, is a CMS Admin panel where they can update status, events, and other sections of their website that regularly changes.',
   paragraphThree: 'I love learning new technologies but a deeper passion is helping others learn.',
   resume: 'https://github.com/ChrisB32-cloud/resume/raw/main/MyResume.pdf', // if no resume, the button will not show up
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'screenPrint.png',
     codeSource: false,
     title: 'Ink Pressive',
-    info: 'Ink Pressive is a first responder owned and operated Screen Printing company specilizing in sublamtion process. I helped them create a solution where they could have a website and change/update sections that change frequently with a CMS/admin panel where they recieve messages from companies interested in their services that is simple and easy to use. Another option for contact is via service form for returning clients. Sections that include new offerings, events and a section for displaying instagram post.',
+    info: 'Ink Pressive is a first responder owned and operated Screen Printing company specilizing in a sublamtion process. I built them authenticated routes where they could have a website and change/update sections that change frequently with a CMS/admin panel where they can recieve messages from companies interested in their services that is simple and easy to use. Another method of contact is a service form for returning clients. Also built, sections that include new offerings, events and a section for displaying instagram post.',
     info2: 'The tools I used for this project are React-JS (Currently refactoring for NEXT-JS), JavaScript, Css, Material-UI and Firbase.  ',
     url: 'https://60b6497e8408a500081ecc91--angry-sammet-9ba266.netlify.app',
     repo: 'https://github.com/ChrisB32-cloud/Ink-Pressive-Dev', // if no repo, the button will not show up
