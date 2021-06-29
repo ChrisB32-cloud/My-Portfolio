@@ -24,6 +24,7 @@ export const aboutData = {
   paragraphThree: 'I love learning new technologies but a deeper passion is helping others learn.',
   resume: 'https://github.com/ChrisB32-cloud/resume/blob/main/myresumeSkillFirst.pdf', // if no resume, the button will not show up
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  // resume deployment
 };
 
 // PROJECTS DATA
